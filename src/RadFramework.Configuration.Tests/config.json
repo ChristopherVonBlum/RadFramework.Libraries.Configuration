@@ -1,0 +1,6 @@
+[
+  {
+    "$type" : "RadFramework.Configuration.Tests.TestSection, RadFramework.Configuration.Tests",
+    "Value1" : "Test"
+  }
+]
