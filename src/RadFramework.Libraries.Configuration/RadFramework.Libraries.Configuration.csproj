@@ -2,14 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
+        <RootNamespace>RadFramework.Abstractions.Configuration</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="src\Patching" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\..\data\RadFramework.Libraries.Data.FileSystem\RadFramework.Libraries.Data.FileSystem.csproj" />
+      <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     </ItemGroup>
 
 </Project>

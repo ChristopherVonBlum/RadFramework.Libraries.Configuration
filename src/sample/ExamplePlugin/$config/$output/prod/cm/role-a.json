@@ -1,0 +1,33 @@
+[
+  {
+    "loc": "everywhere",
+    "§patchSource": [
+      "Base:Plugin2/$config/policies/prod-Plugin2.policy.json=>[0]"
+    ]
+  },
+  {
+    "loc": "cm servers",
+    "§patchSource": [
+      "Base:Plugin2/$config/policies/prod-Plugin2.policy.json=>[1]"
+    ]
+  },
+  {
+    "id": "1",
+    "loc": "i am root",
+    "nested": {
+      "loc": "i am nested",
+      "deeper": {
+        "loc": "i am deeper",
+        "§patchSource": [
+          "Assign:Plugin2/$config/policies/prod-Plugin2.policy.json=>[7]"
+        ]
+      },
+      "§patchSource": [
+        "Assign:Plugin2/$config/policies/prod-Plugin2.policy.json=>[6]"
+      ]
+    },
+    "§patchSource": [
+      "Base:Plugin2/$config/policies/prod-Plugin2.policy.json=>[5]"
+    ]
+  }
+]

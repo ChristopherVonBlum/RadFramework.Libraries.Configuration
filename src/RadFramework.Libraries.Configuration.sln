@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadFramework.Libraries.Configuration", "RadFramework.Libraries.Configuration\RadFramework.Libraries.Configuration.csproj", "{172940FE-15E1-4B27-AB34-145119C2B437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadFramework.Libraries.Configuration.Patching", "RadFramework.Libraries.Configuration.Patching\RadFramework.Libraries.Configuration.Patching.csproj", "{8DBD00BC-E465-4E5C-BD03-DCAD1484C01B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadFramework.Libraries.Configuration.Patching.TransformationRunner", "RadFramework.Libraries.Configuration.Patching.TransformationRunner\RadFramework.Libraries.Configuration.Patching.TransformationRunner.csproj", "{F07123D2-4E24-4455-9E89-B599213D60AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172940FE-15E1-4B27-AB34-145119C2B437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172940FE-15E1-4B27-AB34-145119C2B437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172940FE-15E1-4B27-AB34-145119C2B437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172940FE-15E1-4B27-AB34-145119C2B437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBD00BC-E465-4E5C-BD03-DCAD1484C01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBD00BC-E465-4E5C-BD03-DCAD1484C01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBD00BC-E465-4E5C-BD03-DCAD1484C01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBD00BC-E465-4E5C-BD03-DCAD1484C01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07123D2-4E24-4455-9E89-B599213D60AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07123D2-4E24-4455-9E89-B599213D60AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07123D2-4E24-4455-9E89-B599213D60AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07123D2-4E24-4455-9E89-B599213D60AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

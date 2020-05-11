@@ -1,0 +1,47 @@
+﻿[
+  {
+    "stage": "int",
+    "servers": [
+      {
+        "server": "cm",
+        "roles": [ "role-a" ]
+      },
+      {
+        "server": "cd",
+        "roles": [ "role-b" ]
+      }
+    ]
+  },
+  {
+    "stage": "uat",
+    "servers": [
+      {
+        "server": "cm",
+        "roles": [ "role-a" ]
+      },
+      {
+        "server": "cd",
+        "roles": [ "role-b" ]
+      }
+    ]
+  },
+  {
+    "stage": "prod",
+    "servers": [
+      {
+        "server": "cm",
+        "roles": [ "role-a" ]
+      },
+      {
+        "server": "cd",
+        "replication": "02",
+        "roles": [ "role-b" ]
+      },
+      {
+        "server": "cd",
+        "replication" : "03", 
+        "roles": [ "role-b" ]
+      }
+    ]
+  }
+]

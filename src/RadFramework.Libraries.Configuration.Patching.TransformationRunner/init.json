@@ -1,0 +1,8 @@
+﻿{
+  "debug": false,
+  "includeContext": {
+    "includeRoot": "../../../../sample",
+    "configRoot": "../../../../sample/ExamplePlugin/$config",
+    "outputRoot": "../../../../sample/ExamplePlugin/$config/$output"
+  }
+}

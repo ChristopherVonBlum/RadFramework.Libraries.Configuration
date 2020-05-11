@@ -1,0 +1,76 @@
+﻿[
+  {
+    "patch": {
+      "loc": "everywhere"
+    }
+  },
+  {
+    "conditions": {
+      "targetInformation": {
+        "targetServers": [ "cm" ]
+      }
+    },
+    "patch": {
+      "loc": "cm servers"
+    }
+  },
+  {
+    "conditions": {
+      "targetInformation": {
+        "targetServers": [ "cd" ]
+      }
+    },
+    "patch": {
+      "loc": "cd servers"
+    }
+  },
+  {
+    "conditions": {
+      "targetInformation": {
+        "targetStages": [ "int" ]
+      }
+    },
+    "patch": {
+      "loc": "all int servers"
+    }
+  },
+  {
+    "conditions": {
+      "targetInformation": {
+        "targetStages": [ "prod" ],
+        "targetServers": [ "cd" ]
+      }
+    },
+    "patch": {
+      "loc": "all prod cd replications"
+    }
+  },
+  {
+    "patch": {
+      "id": "1",
+      "loc": "i am root",
+      "nested": {}
+    }
+  },
+  {
+    "match": {
+      "id": "1"
+    },
+    "patchTargetQuery": "nested",
+    "overrideDeltaMode": "AssignProperties",
+    "patch": {
+      "loc": "i am nested",
+      "deeper": {}
+    }
+  },
+  {
+    "match": {
+      "id": "1"
+    },
+    "patchTargetQuery": "nested.deeper",
+    "overrideDeltaMode": "AssignProperties",
+    "patch": {
+      "loc": "i am deeper"
+    }
+  }
+]
