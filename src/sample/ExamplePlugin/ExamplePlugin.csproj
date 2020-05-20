@@ -3,24 +3,5 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="%2524config\**" />
-    <EmbeddedResource Remove="%2524config\**" />
-    <None Remove="%2524config\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="%24config\ConnectionStrings.policy.json" />
-    <Content Include="%24config\environments\b2b-authoring.json" />
-    <Content Include="%24config\environments\b2b-shops.json" />
-    <Content Include="%24config\environments\b2c-shops.json" />
-    <Content Include="%24config\environments\b2c-authoring.json" />
-    <Content Include="%24config\servers.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="%24config\%24output\" />
-  </ItemGroup>
-
+  
 </Project>
