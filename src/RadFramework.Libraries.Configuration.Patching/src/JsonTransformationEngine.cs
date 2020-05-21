@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using Newtonsoft.Json.Linq;
 using RadFramework.Libraries.Configuration.Patching.Logging;
+using RadFramework.Libraries.Configuration.Patching.Models;
 using RadFramework.Libraries.Configuration.Patching.Plugins;
 
 namespace RadFramework.Libraries.Configuration.Patching

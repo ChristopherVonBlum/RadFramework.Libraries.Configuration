@@ -1,4 +1,4 @@
-﻿namespace RadFramework.Libraries.Configuration.Patching.FileSystem
+﻿namespace RadFramework.Libraries.Configuration.Patching.TransformationRunner.FileSystem
 {
     public class PatchingTemplate
     {

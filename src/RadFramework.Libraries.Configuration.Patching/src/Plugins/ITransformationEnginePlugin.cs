@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
+using RadFramework.Libraries.Configuration.Patching.Models;
 
 namespace RadFramework.Libraries.Configuration.Patching.Plugins
 {

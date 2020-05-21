@@ -1,4 +1,4 @@
-﻿using RadFramework.Libraries.Configuration.Patching.Arguments;
+﻿using RadFramework.Libraries.Configuration.Patching.Plugins.PatchFileMakro;
 
 namespace RadFramework.Libraries.Configuration.Patching.TransformationRunner.Configuration
 {

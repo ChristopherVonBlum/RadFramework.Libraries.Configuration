@@ -1,7 +1,7 @@
 ﻿using System.IO;
-using RadFramework.Libraries.Configuration.Patching.Plugins;
+using RadFramework.Libraries.Configuration.Patching.Models;
 
-namespace RadFramework.Libraries.Configuration.Patching.FileSystem
+namespace RadFramework.Libraries.Configuration.Patching.TransformationRunner.FileSystem
 {
     public class PatchingTemplateProvider : IPatchingTemplateProvider
     {

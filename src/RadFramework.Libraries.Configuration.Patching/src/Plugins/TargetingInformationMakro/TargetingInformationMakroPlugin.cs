@@ -4,7 +4,7 @@ using System.Reflection;
 using Newtonsoft.Json.Linq;
 using RadFramework.Libraries.Configuration.Patching.Models;
 
-namespace RadFramework.Libraries.Configuration.Patching.Plugins
+namespace RadFramework.Libraries.Configuration.Patching.Plugins.TargetingInformationMakro
 {
     public class TargetingInformationMakroPlugin : ITransformationEnginePlugin
     {

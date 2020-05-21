@@ -1,4 +1,4 @@
-﻿namespace RadFramework.Libraries.Configuration.Patching.Models
+﻿namespace RadFramework.Libraries.Configuration.Patching.Plugins.TargetingInformationMakro
 {
     public class TargetingInformation
     {

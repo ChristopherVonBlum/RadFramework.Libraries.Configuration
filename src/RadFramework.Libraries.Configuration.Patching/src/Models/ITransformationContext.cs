@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RadFramework.Libraries.Configuration.Patching.Plugins
+namespace RadFramework.Libraries.Configuration.Patching.Models
 {
     public interface ITransformationContext
     {

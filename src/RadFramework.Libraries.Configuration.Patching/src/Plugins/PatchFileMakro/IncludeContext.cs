@@ -1,4 +1,4 @@
-﻿namespace RadFramework.Libraries.Configuration.Patching.Arguments
+﻿namespace RadFramework.Libraries.Configuration.Patching.Plugins.PatchFileMakro
 {
     public class IncludeContext : IIncludeContext
     {

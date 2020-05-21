@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace RadFramework.Libraries.Configuration.Patching.Plugins
+namespace RadFramework.Libraries.Configuration.Patching.Models
 {
     public class TransformationContext : ITransformationContext
     {
