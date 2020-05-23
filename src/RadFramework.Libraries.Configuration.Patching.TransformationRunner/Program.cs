@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using CVB.NET.Abstractions.Ioc.Injection.Parameter;
 using Newtonsoft.Json;
 using RadFramework.Libraries.Configuration.Patching.Logging;
 using RadFramework.Libraries.Configuration.Patching.Plugins;
@@ -10,8 +9,7 @@ using RadFramework.Libraries.Configuration.Patching.Plugins.PatchFileMakro;
 using RadFramework.Libraries.Configuration.Patching.Plugins.TargetingInformationMakro;
 using RadFramework.Libraries.Configuration.Patching.TransformationRunner.Configuration;
 using RadFramework.Libraries.Configuration.Patching.TransformationRunner.FileSystem;
-using RadFramework.Libraries.Ioc.Container;
-using RadFramework.Libraries.Reflection.Caching;
+using RadFramework.Libraries.Ioc;
 
 namespace RadFramework.Libraries.Configuration.Patching.TransformationRunner
 {
@@ -125,9 +123,9 @@ namespace RadFramework.Libraries.Configuration.Patching.TransformationRunner
 
             services.RegisterSingleton<JsonPatchFileMakroPlugin, JsonPatchFileMakroPlugin>();
 
-            services.RegisterSemiAutomaticSingleton<ITransformationEnginePlugin[]>(() => new ITransformationEnginePlugin[]
+            services.RegisterSemiAutomaticSingleton<ITransformationEnginePlugin[]>(c => new ITransformationEnginePlugin[]
             {
-                Arg<JsonPatchFileMakroPlugin>.Dependency(),
+                c.Resolve<JsonPatchFileMakroPlugin>(),
                 new TargetingInformationMakroPlugin()
             });
 
